@@ -9,4 +9,4 @@ EXPOSE 8082
 
 EXPOSE 9092
 
-CMD ["java","-cp","h2-1.4.197.jar","org.h2.tools.Server"]
+CMD ["java","-cp","h2-1.4.197.jar","org.h2.tools.Server","-webAllowOthers","-tcpAllowOthers"]
